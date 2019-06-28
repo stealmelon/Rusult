@@ -62,7 +62,7 @@ int main()
             {
                 sum += score[k];
             }
-            Competitors[i].Avgscore = sum / Num;
+            Competitors[i].Avgscore = sum / 5;
             sum = 0;
         }
         Referee.close();
