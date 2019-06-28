@@ -70,7 +70,7 @@ int main()
     if(Competitor.is_open())
     {
         //cout << "Also Succeeded!" << endl;
-        for(int i = 0; i < Num; i++)"
+        for(int i = 0; i < Num; i++)
         {
             Competitor >> Competitors[i].Number
             >> Competitors[i].Name
